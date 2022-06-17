@@ -78,6 +78,7 @@ button:hover {
 a button {
   border: 1px solid hsl(184, 100%, 22%);
   color: hsl(184, 100%, 22%);
+   margin-top: 3em;
 }
 a button:hover {
   background-color: hsl(184, 100%, 22%);
