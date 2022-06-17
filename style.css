@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0, 0%, 95%);
+}
+
+main {
+  width: 50%;
+  display: flex;
+  margin: auto;
+  margin-top: 70px;
+}
+
+div {
+  padding: 2em;
+  width: 33%;
+}
+h3 {
+  padding: 1em;
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display";
+  font-weight: 700;
+  font-size: 35px;
+  text-align: left;
+}
+
+p {
+  padding: 1em;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+  font-family: "Lexend Deca";
+  font-weight: 400;
+}
+
+button {
+  padding: 1em;
+  margin-top: 4em;
+  margin-left: 1em;
+  border-radius: 20px;
+  border: none;
+  background-color: hsl(0, 0%, 95%);
+}
+
+#sedan {
+  background-color: hsl(31, 77%, 52%);
+}
+.sedanbtn {
+  color: hsl(31, 77%, 52%);
+  margin-top: 5.5em;
+}
+#suv {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.suvbtn {
+  color: hsl(184, 100%, 22%);
+  margin-top: 5.5em;
+}
+
+#luxury {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.luxurybtn {
+  color: hsl(179, 100%, 13%);
+}
+
+button:hover {
+  background-color: transparent;
+  border: hsl(0, 0%, 95%) solid 0.5px;
+  color: hsl(0, 0%, 95%);
+  cursor: pointer;
+}
