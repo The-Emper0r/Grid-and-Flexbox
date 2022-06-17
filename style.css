@@ -12,7 +12,7 @@ main {
   width: 50%;
   display: flex;
   margin: auto;
-  margin-top: 70px;
+  margin-top: 5px;
 }
 
 div {
@@ -74,4 +74,19 @@ button:hover {
   border: hsl(0, 0%, 95%) solid 0.5px;
   color: hsl(0, 0%, 95%);
   cursor: pointer;
+}
+a button {
+  border: 1px solid hsl(184, 100%, 22%);
+  color: hsl(184, 100%, 22%);
+}
+a button:hover {
+  background-color: hsl(184, 100%, 22%);
+}
+@media only screen and (max-width: 600px) {
+  main {
+    flex-direction: column;
+  }
+  div {
+    width: 100%;
+  }
 }
